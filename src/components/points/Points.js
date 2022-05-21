@@ -1,9 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
+import MapPoints from './MapPoints';
 
-export default class Points extends Component {
+export default class Points extends React.Component {
     render(){
       return (
-        <h1>Hi!</h1>
+        <MapPoints/>
       );
     }
 }
