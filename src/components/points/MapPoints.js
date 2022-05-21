@@ -9,8 +9,8 @@ export default function MapPoints() {
   }
   return (
     <div onClick={handleSubmit}>
-      {points.map((p) => (
-        <div type="submit">{p}</div>
+      {points.map((p, index) => (
+        <div key={p.name + "-" + index} type="submit">{p}</div>
       ))}
     </div>
   );
