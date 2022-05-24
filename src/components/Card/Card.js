@@ -4,7 +4,7 @@ const Card = (props) => {
 
     function handleChoice() {
         if (!props.disabled)
-            props.handleChoice(props.card);
+            props.handleChoice(props.card, props.back);
     }
 
     return (
